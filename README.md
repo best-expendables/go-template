@@ -23,6 +23,6 @@ Script saving data in path/project_name
 How to generate a service?
 ----------------------
 ```
-    ./init.sh gen ServiceName project_path/
+    ./init.sh gen service ServiceName project_path/
 ```
 This command will generate a service inside the created project, includes simple CURD for a model
