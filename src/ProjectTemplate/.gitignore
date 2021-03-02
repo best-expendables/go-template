@@ -1,0 +1,6 @@
+config/dev.go
+vendor
+build
+profile.coverprofile
+overalls.coverprofile
+.idea
