@@ -12,8 +12,17 @@ Go service template
 
 How to create project?
 ----------------------
+- After download completely, move to the go-template, open and edit the `init.sh` file and modify the `REPO_NAME` and `REPO_HOST` values bases on your git repository.
+- Then use this command to create new project.
 ```
     ./init.sh create project-name path
 ```
 This command will create new project with name project-name. Be careful this name is using by GO code.
 Script saving data in path/project_name
+
+How to generate a service?
+----------------------
+```
+    ./init.sh gen ServiceName project_path/
+```
+This command will generate a service inside the created project, includes simple CURD for a model
